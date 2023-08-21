@@ -27,10 +27,10 @@ console.log(y === z); // false
 // reference: Objects
 let o = {
   name: 'Pramod',
-  designation: 'Specialist',
+  designation: 'S.Con',
 }; // object will be stored in heap memory, address of the object is stored in the variable
 let j = o; // when you copy a reference type, only the reference will be copied
 console.log(typeof o); // typeof is used to get the datatype of a variable
 console.log(j);
-o.designation = 'S.Con';
+o.designation = 'Specialist';
 console.log(j);
