@@ -97,4 +97,18 @@ a = --x;
 a = x--; // a = x; x = x - 1;
 
 // unary plus
-// converts any
+// converts any string into a number
+console.log(typeof +'1');
+
+// unary negation
+// converts a positive number to negative and vice versa
+const j = '4';
+let k = -j;
+console.log(typeof k);
+
+// conditional (ternary) operator
+// a ternary operator takes a condition and returns one value if true or returns another if false
+// Syntax: condition ? val1: val2
+const num = 4;
+const result = num === '4' ? 'True' : 'False';
+console.log(result);
