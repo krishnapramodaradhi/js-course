@@ -87,7 +87,7 @@ try {
     console.log(firstName);
   }
 } catch (error) {
-  // error doesn't have a type. It infers the type thrown
+  // error doesn't have a type. It infers the type thrown from the try block
   console.log(typeof error);
   console.log('An unknown error occured:', error);
 }
